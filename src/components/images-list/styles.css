@@ -1,6 +1,6 @@
 .Images-Container {
   padding: 30px 5em;
-  justify-content: start;
+  justify-content: flex-start;
   text-align: center;
   align-items: center;
   display: flex;

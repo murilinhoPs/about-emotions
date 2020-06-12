@@ -1,39 +1,60 @@
-.Content{
-    padding: 15px;
-    /* height: 30px; */
-    text-align: center;
-    justify-content: center;
-    width: 600px;
-    display: flex;
+.Content {
+  padding: 15px;
+  /* height: 30px; */
+  text-align: center;
+  justify-content: center;
+  width: 600px;
+  display: flex;
 }
 
-.Content-Image{
-    border-radius: 15px;
-    background-color: white;
-    padding: 5px;
-    width: 85%;
-    margin-left: 20px;
+.Content-Image {
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  width: 85%;
+  margin-left: 20px;
 }
-.Content-Image:hover{
-    background-color: rgba(235, 221, 255, 0.5);
+.Content-Image:hover {
+  background-color: rgba(235, 221, 255, 0.5);
 }
 
-.Content-Description{
-    margin-top: 15px;
-    text-align: left;
-    padding-left: 10px;
+.Content-Description {
+  margin-top: 15px;
+  text-align: left;
+  padding-left: 10px;
 }
+.Content-Description text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+}
+
 
 @media (max-width: 768px) {
-    .Content{
-        height: 100%;
-    }
-    .Content-Image-Display{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .Content-Image{
-        width: 50%;
-    }
+  .Content {
+    display: inline;
+  }
+  .Content-Image-Display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Content-Image {
+    width: 30%;
+  }
+  .Content-Description {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Content-Description {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 }
