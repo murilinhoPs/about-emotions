@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "LuluCleanOne";
+  src: local("LuluCleanOne"),
+    url(../assets/fonts/LuloCleanW01OneBold.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: "LuluCleanOne";
+  color: #9b66f8;
+  font-size: 32px;
+}
+
+.App-header {
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-description {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.App-description text {
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  max-width: 70%;
+}

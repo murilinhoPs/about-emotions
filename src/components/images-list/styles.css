@@ -1,0 +1,14 @@
+.Images-Container {
+  padding: 30px 5em;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* @media (max-width: 768px) {
+  .Images-Container {
+    flex-direction: column;
+  }
+} */
