@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./styles.css";
 
 export default function ImageContent({ url, content }) {
   const [state, setState] = useState({ description: false });
@@ -9,9 +10,13 @@ export default function ImageContent({ url, content }) {
 
   return (
     <div className="Content">
-      <div className="Content-Image">
-        <img src={url} alt="medo" onClick={ShowDescription}></img>
+
+      <div className="Content-Image-Display">
+        <div className="Content-Image">
+          <img src={url} alt="medo" onClick={ShowDescription}></img>
+        </div>
       </div>
+
       {state.description ? (
         <div className="Content-Description">
           <text>{content}</text>

@@ -15,10 +15,12 @@ export default function ImagesList() {
       />
       <ImageContent
         url={require("../../assets/images/raiva.png")}
-        content="Aparece quando algo não está legal e nos sentimos desrespeitados. Dá vontade de gritar, esbravejar. Ficamos vermelhos, parecendo uma fera, fazemos caretas e ficamos à espera. 
+        content="Aparece quando algo não está legal e nos sentimos desrespeitados. 
+        Dá vontade de gritar, esbravejar. Ficamos vermelhos, parecendo uma fera, fazemos caretas e ficamos à espera. 
         À espera de passar e tudo se acalmar, porque a raiva vem e vai, como onda do mar. 
         Quando tenho que fazer o que não quero, ela pode vir e o que eu faço? Vejo ela partir.
-         Assim, consigo conversar e solucionar. E depois? Chamar os amigos para brincar!"
+         Assim, consigo conversar e solucionar. 
+         E depois? Chamar os amigos para brincar!"
       />
       <ImageContent
         url={require("../../assets/images/triste.png")}

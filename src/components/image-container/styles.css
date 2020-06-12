@@ -1,0 +1,39 @@
+.Content{
+    padding: 15px;
+    /* height: 30px; */
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    display: flex;
+}
+
+.Content-Image{
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    width: 85%;
+    margin-left: 20px;
+}
+.Content-Image:hover{
+    background-color: rgba(235, 221, 255, 0.5);
+}
+
+.Content-Description{
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .Content{
+        height: 100%;
+    }
+    .Content-Image-Display{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .Content-Image{
+        width: 50%;
+    }
+}
